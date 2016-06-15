@@ -1,0 +1,172 @@
+/* Post View Imageスライドショー */
+#popup-background{ /*popup背景*/
+	position:fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:#000;
+	opacity:0.60;
+	margin:0;
+	padding:0;
+	z-index:1000;
+}
+
+/*#popup-item{  popup画像 
+	position:fixed;
+	top:50%;
+	left:50%;
+  max-width: 100%;
+	height: auto;
+	margin:0;
+	padding:10px;
+	z-index:1001;
+	border: solid 1px #fff;
+	background:#fff;
+}*/
+
+
+#slideBox{
+	padding:-25px;
+	border:1px #ccc solid;
+	height: 200px;
+	width: 100%;
+	display: none;
+}
+
+/* popupスライド */
+.imageMain {
+  top:50%; 
+  position:fixed; 
+  z-index:1002;
+  margin:0;
+  padding:0;
+}
+.slider .slide {
+	width: 500px;
+  height: 568px;
+  border: 1px solid #ccc;
+  float: left;
+	z-index:1002;
+}
+
+.slide{
+	background:#fff;
+}
+
+.slider .slideSet {
+	position:absolute;
+	z-index:1002;
+}
+
+.slider {
+  width:500px;
+  height:568px;
+  //height:auto;
+  overflow:hidden;
+	position: fixed;
+	z-index:1002;
+  top:50%;
+  left:50%;
+}
+
+.slideBtn {
+  position:absolute;
+  top:50%;
+  width:100%;
+  z-index:1003;
+}
+
+#slider-next {
+  float: right;
+}
+
+#slider-prev {
+  float:left;
+}
+
+#UserAddForm {
+  display:block;
+}
+
+#postBtn {
+  float:right;
+  margin-right:15px;
+}
+
+
+/* header */
+ #openBox {
+   margin-right: 15px;
+   margin-left:5px;
+   margin-top: 7px;
+ }
+
+#headerMenu {
+  background-color:#4C99A6;
+  font-weight:lighter;
+}
+
+.dropdown-toggle {
+  color:#fff;
+}
+
+/*view*/
+.view {
+  border-style: solid;
+  border-width: 1px;
+  border-color:silver;
+  padding:20px;
+  word-wrap: break-word;
+}
+
+.sub {
+  color:#7e8c9b; 
+  font-weight:200; 
+  font-size:13px;
+  font-weight:light;
+}
+
+.main {
+  color:#434c56;
+}
+
+.training {
+  padding:10px; 
+  color:#fff; 
+  font-size:22px; 
+  font-weight:400;
+}
+
+/* page top*/
+#pageTop {
+  position:fixed;
+  bottom:0px;
+  right:20px;
+  font-size:50%;
+  float:right;
+}
+
+#pageTop a {
+  background:#ec6d71;
+  text-decoration:none;
+  color:#fff;
+  width:40px;
+  height:40px;
+  padding:5px 0;
+  text-align:center;
+  display:block;
+  border-radius:10px;
+}
+
+#pageTop a:hover {
+  text-decoration:none;
+  background: #f0908d;
+}
+
+.postBack {
+  background: #f9f9f9;
+  border-radius:10px;
+  padding:15px;
+
+}
